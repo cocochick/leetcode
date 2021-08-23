@@ -1,9 +1,20 @@
 # stl容器
 ## 通用函数
+逆转
 ```cpp
 #include<algorithm>
 void reverse(vec.begin(),vec.end());    //或void reverse(vec,int begin,int end);
 ```
+设置容器大小
+
+    resize()    //实际分配内存
+
+
+设置容器容量
+
+    reserve()   //并未实际分配内存
+
+
 ## vector
 **向量**
 ## stack
